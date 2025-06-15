@@ -1,0 +1,36 @@
+/* Basic styling for the guest list */
+#guest-list li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px;
+  border-bottom: 1px solid #ccc;
+  font-family: sans-serif;
+}
+
+/* Name styling */
+#guest-list span {
+  flex: 2;
+}
+
+/* Time stamp */
+#guest-list small {
+  flex: 1;
+  text-align: right;
+  color: gray;
+  font-size: 0.8em;
+}
+
+/* Buttons styling */
+.buttons {
+  flex: 1.5;
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+}
+
+.buttons button {
+  padding: 4px 8px;
+  font-size: 0.85em;
+  cursor: pointer;
+}
